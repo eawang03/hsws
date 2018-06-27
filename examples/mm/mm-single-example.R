@@ -8,13 +8,13 @@ rm(list=ls())
 # of the following colors:
 # this will double as both labels and as colors for the bars:
 mvl=c("red", "blue", "green", "yellow", "orange", "brown");
-mv =c(   4,      5,       3,        2,        1,       3)
+mv =c(   13,      16,       31,        17,        16,       17)
 
 # associate the color names with the color counts
 names(mv) = mvl
 
 # EDIT HERE: change to your group's name 
-ptitle = "M&Ms in example package";
+ptitle = "M&Ms in package";
 
 # use barplot() for categorical data, and label the axes:
 barplot(mv,                # data to plot
@@ -41,7 +41,7 @@ print(msummary)
 msum = sum(mv)
 print("Total number of M&Ms in package")
 print(msum)
-# [1] 18
+# [1] 
 
 mrange = range(mv)
 print("Range of color counts, M&M package")
